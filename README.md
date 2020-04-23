@@ -1,24 +1,17 @@
-# README
+# Phone Allotment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```sh-session
+ * git clone git@github.com:uday708/phone-allotment.git
+ * Ruby version - '2.6.3'
+ * bundle install
+ * rake db:setup (seeds data will create)
+ * rails s -p 4000
 
-Things you may want to cover:
+```sh-session
+ * System dependencies - install rvm, rvm use 2.6.3
+ * rails version 6.0.2.2
+ ```
 
-* Ruby version
+* Database initialization - sqlite3, Go through the schema for  database structure.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the test suite -> e.g. {ruby -Itest test/controller/posts_controller_test.rb}
